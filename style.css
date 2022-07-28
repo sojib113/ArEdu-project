@@ -1,3 +1,37 @@
-.carousel-item{
-  margin: auto;
+
+body p{
+  font-family: 'Kanit', sans-serif;
+  color: rgb(40, 38, 38);
+}
+.carousel-caption{
+  top: 40%;
+}
+.carousel-caption h1{
+  font-family: 'Mochiy Pop One', sans-serif;
+
+}
+.carousel-caption p{
+color: rgb(231, 229, 229);
+}
+
+.courses p{
+font-weight: bolder;
+}
+.navbar-brand{
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+@media screen and (max-width: 668px) {
+  .carousel-caption {
+    top: 18%;
+  }
+  .carousel-caption h1{
+    font-size: 15px;
+  }
+  .carousel-caption p{
+    font-size: smaller;
+    
+  }
+  .carousel-caption .btn{
+    margin-top: -15px;
+  }
 }
